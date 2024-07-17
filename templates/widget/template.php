@@ -27,7 +27,7 @@ $frame = $this->createFrame()->begin();
 
             foreach ($arResult["MANAGERS"] as $manager) :?>
 
-                <a href="/company/personal/user/<?= $manager["ID"] ?>>/"
+                <a href="<?= SITE_DIR . 'company/personal/user/' . $manager["ID"] . '/' ?>"
                    class="sidebar-widget-item --row widget-last-item">
                     <span class="sidebar-user-info">
 				        <span class="manager-name"><?= $manager["NAME"] ?></span>
