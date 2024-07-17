@@ -38,7 +38,7 @@ class CManagersWidget extends \CBitrixComponent
                     "ID" => $arSection["UF_HEAD"],
                     "DEPARTAMENT" => $arSection["NAME"]
                 ];
-                var_dump($user);
+
             }
         }
     }
