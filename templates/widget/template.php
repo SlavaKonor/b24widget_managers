@@ -14,7 +14,7 @@ if (count($arResult['MANAGERS']) < 1) {
     return;
 }
 
-$this->SetViewTarget('sidebar', 301);
+$this->SetViewTarget('sidebar', 301); // где 301 - сортировка виджетов с сайдбаре
 $frame = $this->createFrame()->begin();
 ?>
 
